@@ -1,10 +1,6 @@
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
-import os
-from dotenv import load_dotenv
-load_dotenv()
-
 
 url = 'https://database.lichess.org/'
 req = requests.get(url)
